@@ -1,0 +1,41 @@
+
+/* Code mặc định cho toàn màn hình */
+.desktop{
+    background-color: red;
+}
+
+/* screen, speech, print , all */
+@media screen and (max-width:1200px){
+    /* Code css cho vùng nhỏ hơn và bằng 1200px */
+    .desktop{
+        background-color: purple;
+    }
+}
+
+@media screen and (max-width:992px){
+    /* Code css cho vùng nhỏ hơn và bằng 992px */
+    .desktop{
+       background-color: pink;
+   }
+}
+
+
+
+/* Code mặc định cho toàn màn hình */
+.mobile{
+    background-color: red;
+}
+
+@media screen and (min-width:576px){
+    /* code css cho vùng màn hình lớn hơn và bằng 576px */
+    .mobile{
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width:768px){
+    /* code css cho vùng màn hình lớn hơn và bằng 768px */
+    .mobile{
+        background-color: green;
+    }
+}

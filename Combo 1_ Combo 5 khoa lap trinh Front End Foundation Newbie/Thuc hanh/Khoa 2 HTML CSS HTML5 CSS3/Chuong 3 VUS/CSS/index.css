@@ -1,0 +1,130 @@
+.clear{
+    clear: both;
+}
+h2{
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+}
+/* HEADER */
+.header__imgLeft{
+    float: left;
+}
+.header__imgRight{
+    float: right;
+    margin-right: 150px;
+}
+.header__navbar ul{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding: 15px 0 ;
+    
+}
+.header__navbar li{
+    display: inline;
+    
+    padding: 0 0.2em;
+    
+}.header__navbar li a{
+    text-decoration: none; 
+    color: #676363;
+    text-transform: uppercase; 
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.header__navbar li:hover{
+    border-bottom: 2px solid #B72831;
+}
+/* CAROUSEL */
+.carousel{
+    background-image: url(../img/slider_1.png);
+    height: 450px;
+    background-size: cover;
+}
+/* INTRO */
+.line{
+    background-image: url(../img/line.png);
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro .intro__content{
+    padding: 20px 200px;
+    text-align: center;
+}
+/* PROGRAMS */
+.programs .programs__item{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.programs .programs__item img{
+    width: 100%;
+}
+.programs .programs__item h3{
+    color: #B72831;
+}
+/* NEWS */
+.news__content{
+    margin-top: 20px;
+}
+.news__content-left, .news__content-right{
+    float: left;
+    width: 50%;
+   
+}
+.news__item img{
+    width: 100%;
+}
+.news__content-right .news__container{
+    float: left;
+    width: 50%;
+}
+.news__item{
+    position: relative;
+}
+.news__item p{
+    margin: 0;
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+    color: #EEEEEE;
+}
+hr{
+    border: 2px solid #B72831;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.news__container{
+   
+    padding: 0px 8px 0;
+}
+/* FOOTER */
+.footer{
+    margin-top: 50px;
+    background-color: #B72831;
+    height: 150px; 
+    padding: 25px;
+}
+.footer__logo{
+    background-image: url(../img/logo_footer.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    float: left;
+    width: 12%;
+       
+}
+.footer__content{
+   color: #EEEEEE;
+   float: right;
+   width: 50%;
+   
+}
+

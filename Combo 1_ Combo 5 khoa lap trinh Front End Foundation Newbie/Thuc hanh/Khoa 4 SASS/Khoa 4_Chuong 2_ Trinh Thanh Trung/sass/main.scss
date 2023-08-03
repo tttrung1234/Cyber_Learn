@@ -1,0 +1,32 @@
+//helper
+@import './helpers/variables';
+@import './helpers/mixins';
+@import './helpers/extends';
+
+//base
+@import './base/reset';
+@import './base/customize';
+
+//component
+@import './components/buttons';
+@import './components/progressBar';
+@import './components/sectionInfo';
+
+//layout
+@import './layouts/header';
+@import './layouts/banner';
+@import './layouts/design';
+@import './layouts/skills';
+@import './layouts/showcase';
+@import './layouts/team';
+@import './layouts/cover';
+@import './layouts/blog';
+@import './layouts/intro';
+@import './layouts/numbers';
+@import './layouts/feedback';
+@import './layouts/partners';
+@import './layouts/footer';
+@import './layouts/copyright';
+@import './layouts/backToTop'
+
+
