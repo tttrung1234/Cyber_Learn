@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-08-12T14:22:43.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WVvvjFLxI_B-Z9oSRpyG" version="21.6.8" type="device" pages="3">
+  <diagram name="Tính trung bình" id="86lEumJcqOKeVQVkNZr_">
+    <mxGraphModel dx="548" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a0WLeWMAQovq6f6GdvIl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0WLeWMAQovq6f6GdvIl-1" target="a0WLeWMAQovq6f6GdvIl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0WLeWMAQovq6f6GdvIl-1" value="Nhập vào 5 số nguyên từ bàn phím" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a0WLeWMAQovq6f6GdvIl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0WLeWMAQovq6f6GdvIl-2" target="a0WLeWMAQovq6f6GdvIl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a0WLeWMAQovq6f6GdvIl-2" value="-Bước 1: Tạo biến tổng, biến trung bình&lt;br&gt;- Bước 2: Khai báo, nhập lần lượt 5 số từ bàn phím, cộng các số vào biến tổng&lt;br&gt;- Bước 3: Lấy biến tổng chia 5&lt;br&gt;-Bước 4: In ra màn hình biến trung bình" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="48.75" width="120" height="162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a0WLeWMAQovq6f6GdvIl-3" value="Trung bình 5 số" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YvQovAYnKSL3-JwDX_GW" name="Quy đổi tiền">
+    <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Kb3yXUzdEqw7N1p4x46G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kb3yXUzdEqw7N1p4x46G-1" target="Kb3yXUzdEqw7N1p4x46G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kb3yXUzdEqw7N1p4x46G-1" value="Nhập vào giá tiền USD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kb3yXUzdEqw7N1p4x46G-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Kb3yXUzdEqw7N1p4x46G-2" target="Kb3yXUzdEqw7N1p4x46G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kb3yXUzdEqw7N1p4x46G-2" value="-Bước 1: khai báo hằng số tỉ giá tiền&lt;br&gt;-Bước 2: Khai báo biến tiền USD, VND&lt;br&gt;-Bước 3: Nhập số tiền USD&lt;br&gt;- Bước 4: Số tiền VND = USD* tỉ giá&lt;br&gt;- Bước 5: xuất số tiền VNĐ ra màn hình&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="135" width="120" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Kb3yXUzdEqw7N1p4x46G-3" value="Số tiền VNĐ tương ứng" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZeYIWGeYVfwoD1X4tQDZ" name="Tâm đường tròn">
+    <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9qt4QfLyLDc78eBzJzQo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qt4QfLyLDc78eBzJzQo-1" target="9qt4QfLyLDc78eBzJzQo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qt4QfLyLDc78eBzJzQo-1" value="Nhập tọa độ tâm, bán kính của đường tròn. Nhập tọa độ điểm M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9qt4QfLyLDc78eBzJzQo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9qt4QfLyLDc78eBzJzQo-2" target="9qt4QfLyLDc78eBzJzQo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9qt4QfLyLDc78eBzJzQo-2" value="- Bước 1; Khai báo và nhập các biến xC,yC của tâm đường tròn, bán kính R của đường tròn, tọa độ xM, yM của điểm M&lt;br&gt;- Bước 2: Tính khoảng cách từ tâm đường tròn đến điểm M&lt;br&gt;-Bước 3: so sánh khoảng cách với bán kình R&lt;br&gt;+ khoảng cách &amp;lt;R thì nằm trong&lt;br&gt;+khoảng cách = R thì nằm trên&lt;br&gt;+khoảng cách &amp;gt;R thì nằm ngoài&lt;br&gt;- Bước 4: In ra màn hình kết quả&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="128.75" width="200" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9qt4QfLyLDc78eBzJzQo-4" value="Xác định điểm M nằm trong, trên hay ngoài đường tròn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
